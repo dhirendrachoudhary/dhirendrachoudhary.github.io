@@ -15,7 +15,49 @@ header {
 
 nav ul {
     list-style: none;
+    padding: 0;body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
     padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+}
+
+ul {
+    list-style: inside square;
+}
+
+article {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 4px solid #007bff;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #fff;
+    }
+
+    article {
+        border-left: none;
+    }
+}
 }
 
 nav ul li {
